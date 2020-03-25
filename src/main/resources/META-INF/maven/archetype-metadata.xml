@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="basic">
+
+
+	<requiredProperties>
+        <requiredProperty key="main-class-name">
+        </requiredProperty>
+    </requiredProperties>
+
+    <!--Add new fileset for resources-->
+    <!--Set filtered="true" to process files in that directory as templates-->
+    <!--Set packaged="false" to remove package folder structure from resource directory-->
+    <fileSets>
+        <fileSet filtered="true" packaged="false">
+            <directory></directory>
+
+            <!--Filters-->
+            <includes>
+				<include>.gitattributes</include>
+                <include>.gitignore</include>
+            </includes>
+            <excludes>
+                <exclude>**/*.bak</exclude>
+            </excludes>
+        </fileSet>
+
+        <fileSet filtered="true" packaged="true">
+            <directory>src/main/java</directory>
+			<includes>
+                <include>**/*.java</include>
+            </includes>
+			<excludes>
+                <exclude>**/*.bak</exclude>
+            </excludes>
+        </fileSet>
+        <fileSet filtered="true" packaged="true">
+            <directory>src/test/java</directory>
+			<includes>
+                <include>**/*.java</include>
+            </includes>
+			<excludes>
+                <exclude>**/*.bak</exclude>
+            </excludes>
+        </fileSet>
+    </fileSets>
+
+</archetype-descriptor>
