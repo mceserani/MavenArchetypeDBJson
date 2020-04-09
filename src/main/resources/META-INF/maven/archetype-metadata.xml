@@ -5,6 +5,8 @@
 	<requiredProperties>
         <requiredProperty key="main-class-name">
         </requiredProperty>
+        <requiredProperty key="jar-final-name">
+        </requiredProperty>
     </requiredProperties>
 
     <!--Add new fileset for resources-->
