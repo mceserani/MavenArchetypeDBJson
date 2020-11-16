@@ -8,6 +8,7 @@ Ci si riferisce all'editor VSCode
     
     ```
     mvn clean install archetype:update-local-catalog
+    mvn archetype:crawl
     ```
 
 L'archetipo comparirà nell'elenco degli archetipi disponibili su VSCode
