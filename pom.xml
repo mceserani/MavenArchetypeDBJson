@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>it.edu.polomanettiporciatti</groupId>
-  <artifactId>simple-jdk11-archetype-mysql</artifactId>
+  <artifactId>simple-jdk11-archetype-mysql-sqlite-jackson</artifactId>
   <version>1.0</version>
-  <name>Archetype - simple-jdk11-archetype-mysql</name>
+  <name>Archetype - simple-jdk11-archetype-mysql-sqlite-jackson</name>
   <url>http://maven.apache.org</url>
 </project>
