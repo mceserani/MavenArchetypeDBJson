@@ -1,4 +1,4 @@
-# Simple Maven Archetype with MySQL, SQLite and Jackson Dependency
+# Simple Maven Archetype with MySQL SQLite and Jackson Dependency
 
 ## Utilizzo
 Ci si riferisce all'editor VSCode
